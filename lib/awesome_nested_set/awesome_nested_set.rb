@@ -101,11 +101,11 @@ module CollectiveIdea #:nodoc:
       end
 
       module Model
-        extend ActiveSupport::Concern
+        #extend ActiveSupport::Concern
 
-        included do
-          delegate :quoted_table_name, :to => self
-        end
+        #included do
+        #  delegate :quoted_table_name, :to => self
+        #end
 
         module ClassMethods
           # Returns the first root
